@@ -9,7 +9,7 @@
     text-align: center;
   }
   h1 {
-    font-size: "36px";
+    font-size: 36px;
     font-family: "Verdana";
     
   }    
@@ -33,11 +33,12 @@
 }
 .flex-container > div {
   margin: 10px;
-  padding: 20px;  
+  padding: 11px;  
 }
 .flex-container > div1 {
-  margin: 50px;
-  padding: 20px;  
+  margin: 26px;
+  padding: 6px;  
+  font-size: 14px;
 }
 
 
