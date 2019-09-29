@@ -33,9 +33,13 @@
 }
 .flex-container > div {
   margin: 10px;
-  padding: 20px;
-  
+  padding: 20px;  
 }
+.flex-container > div1 {
+  margin: 50px;
+  padding: 20px;  
+}
+
 
 .no-margin-tb {
   margin-top: 0px !important;
