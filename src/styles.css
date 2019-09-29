@@ -1,0 +1,43 @@
+/* Add application styles & imports to this file! */
+@media screen and (min-width: 480px) {
+  body {
+    height: 100vh;
+  }
+}
+  header {
+    margin: 90px;
+    text-align: center;
+  }
+  h1 {
+    font-size: "36px";
+    font-family: "Verdana";
+    
+  }    
+  p {
+  text-align: center;  
+  color: grey;
+  font-size: 14px;
+  }
+  h5 {
+  letter-spacing: 0.15em;  
+  font-size: "14px";
+  font-family: "Verdana";
+  color: rgb(255,67,98);
+  font-weight: 700;
+  }
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  
+}
+.flex-container > div {
+  margin: 10px;
+  padding: 20px;
+  
+}
+
+.no-margin-tb {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
