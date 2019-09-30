@@ -4,19 +4,22 @@
     height: 100vh;
   }
 }
-  header {
-    margin: 90px;
+  header {    
     text-align: center;
   }
   h1 {
     font-size: 36px;
-    font-family: "Verdana";
+    font-family: "Verdana";  
     
   }    
   p {
   text-align: center;  
   color: grey;
   font-size: 14px;
+  line-height: 2;
+  }
+  .desc{
+    margin-bottom: 50px;
   }
   h5 {
   letter-spacing: 0.15em;  
@@ -25,24 +28,44 @@
   color: rgb(255,67,98);
   font-weight: 700;
   }
-
 .flex-container {
   display: flex;
-  justify-content: center;
-  
+  justify-content: center;  
+}
+.flex-container div span {
+  display:block;
+  text-align: center;
 }
 .flex-container > div {
   margin: 10px;
-  padding: 11px;  
+  padding: 11px;   
 }
-.flex-container > div1 {
-  margin: 26px;
-  padding: 6px;  
+.flex-container div span img{
+  width:100px;
+  height:100px;
+  margin-bottom: 20px;
+}
+.logo1{
+  color: rgb(255,67,97);
   font-size: 14px;
 }
-
-
-.no-margin-tb {
-  margin-top: 0px !important;
-  margin-bottom: 0px !important;
+.logo2{
+  color: rgb(69,177,225);
+  font-size: 14px;
+}
+.logo3{
+  color: rgb(214,171,0);
+  font-size: 14px;
+}
+.logo4{
+  color: rgb(64,151,95);
+  font-size: 14px;
+}
+.logo5{
+  color: rgb(88,86,214);
+ }
+.logo{
+ font-size: 14px;
+ font-weight: bold;
+ font-family: "Verdana";
 }
