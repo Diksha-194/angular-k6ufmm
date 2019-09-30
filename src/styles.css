@@ -11,7 +11,14 @@
     font-size: 36px;
     font-family: "Verdana";  
     
-  }    
+  }  
+  h5 {
+  letter-spacing: 0.15em;  
+  font-size: "14px";
+  font-family: "Verdana";
+  color: rgb(255,67,98);
+  font-weight: 700;
+  }  
   p {
   text-align: center;  
   color: grey;
@@ -21,13 +28,7 @@
   .desc{
     margin-bottom: 50px;
   }
-  h5 {
-  letter-spacing: 0.15em;  
-  font-size: "14px";
-  font-family: "Verdana";
-  color: rgb(255,67,98);
-  font-weight: 700;
-  }
+  
 .flex-container {
   display: flex;
   justify-content: center;  
@@ -46,20 +47,16 @@
   margin-bottom: 20px;
 }
 .logo1{
-  color: rgb(255,67,97);
-  font-size: 14px;
+  color: rgb(255,67,97);  
 }
 .logo2{
-  color: rgb(69,177,225);
-  font-size: 14px;
+  color: rgb(69,177,225);  
 }
 .logo3{
-  color: rgb(214,171,0);
-  font-size: 14px;
+  color: rgb(214,171,0);  
 }
 .logo4{
   color: rgb(64,151,95);
-  font-size: 14px;
 }
 .logo5{
   color: rgb(88,86,214);
